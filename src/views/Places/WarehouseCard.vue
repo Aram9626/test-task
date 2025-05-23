@@ -144,7 +144,7 @@ function getImgUrl(filename) {
           .action-icon {
             width: 1rem;
             height: 1rem;
-            color: #9ca3af;
+            //color: #9ca3af;
             transition: color 0.2s;
 
             &:hover {

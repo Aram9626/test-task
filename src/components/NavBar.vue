@@ -24,7 +24,6 @@ watch(
 <template>
   <div class="navbar-container">
     <div class="navbar-grid ">
-      <!-- Left Section: Breadcrumbs -->
       <div class="breadcrumbs">
         <div class="breadcrumb-items">
           <div
@@ -45,7 +44,6 @@ watch(
         </div>
       </div>
 
-      <!-- Right Section -->
       <div class="navbar-right">
         <div class="navbar-right-grid">
           <div>
@@ -110,7 +108,6 @@ watch(
             margin: 0 0.5rem;
             width: 1rem;
             height: 1rem;
-            //color: #9ca3af;
           }
 
           span {

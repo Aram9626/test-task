@@ -136,11 +136,11 @@ function getPages(current, total) {
     gap: 0.25rem;
 
     .pagination-button {
-      padding: 0.25rem 0.75rem; // Replaced px-3 py-1
-      border: 1px solid #d1d5db; // Replaced border and border-gray-300
-      border-radius: 0.25rem; // Replaced rounded
-      background-color: #ffffff; // Replaced bg-white
-      color: #1f2937; // Replaced text-gray-900
+      padding: 0.25rem 0.75rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.25rem;
+      background-color: #ffffff;
+      color: #1f2937;
       font-size: 0.875rem;
       cursor: pointer;
       transition: background-color 0.2s;
@@ -155,14 +155,14 @@ function getPages(current, total) {
       }
 
       &.pagination-button-active {
-        background-color: #f97316; // Replaced bg-orange-500
-        color: #ffffff; // Replaced text-white
+        background-color: #f97316;
+        color: #ffffff;
         border-color: #f97316;
       }
 
       &.pagination-button-ellipsis {
-        cursor: default; // Replaced cursor-default
-        color: #d1d5db; // Replaced text-gray-300
+        cursor: default;
+        color: #d1d5db;
         border-color: transparent;
         background-color: transparent;
       }
@@ -174,7 +174,7 @@ function getPages(current, total) {
     }
 
     .pagination-go {
-      margin-left: 1rem; // Replaced ml-30 (assuming 30px, adjusted to 1rem for consistency)
+      margin-left: 1rem;
     }
 
     .pagination-input {

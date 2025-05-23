@@ -29,33 +29,6 @@
     </ul>
   </aside>
 </template>
-<!--<template>-->
-<!--  <aside class="px-7" :class="['h-screen bg-[#1D1D26] text-white transition-all duration-300', isCollapsed ? 'w-30' : 'w-78']">-->
-<!--    <div class=" py-4">-->
-<!--      <img alt="Logo" src="@/assets/images/logo.svg" class="h-8 logo" />-->
-<!--    </div>-->
-<!--    <div class="relative h-5">-->
-<!--      <button @click="isCollapsed = !isCollapsed" class="bottom-4 absolute top-0 collaps-icon">-->
-<!--        <span v-if="isCollapsed"><img width="30px" alt="Arrow Left" src="@/assets/images/arrow-circle-left.svg" class="" /></span>-->
-<!--        <span v-else><img width="30px" alt="Arrow Right" src="@/assets/images/circle%20chevrons.svg" class="" /></span>-->
-<!--      </button>-->
-<!--    </div>-->
-<!--    <ul class="space-y-2 py-8">-->
-<!--      <li-->
-<!--          v-for="item in menuItems"-->
-<!--          :key="item.name"-->
-<!--          @click="navigate(item.route)"-->
-<!--          class="relative cursor-pointer px-3 py-2 hover:bg-gray-700 rounded-lg mb-10"-->
-<!--          :class="{'bg-white text-orange-500 font-bold': route.path.includes(item.route)}"-->
-<!--      >-->
-<!--        <div class="flex items-center space-x-3" :class="{'justify-center': isCollapsed}">-->
-<!--          <img width="30px" :alt="item.name" :src="getImgUrl(route.path.includes(item.route) ? item.ActivImg :item.Img)" class="" />-->
-<!--          <span v-if="!isCollapsed" class="transition-opacity duration-300 ml-10">{{ item.name }}</span>-->
-<!--        </div>-->
-<!--      </li>-->
-<!--    </ul>-->
-<!--  </aside>-->
-<!--</template>-->
 
 <script setup>
 import { ref } from 'vue'

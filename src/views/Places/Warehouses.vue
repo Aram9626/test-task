@@ -56,7 +56,6 @@ onMounted(() => {
           <img src="@/assets/images/export.svg" alt="PDF icon" class="export-icon" />
           Export PDF
         </button>
-<!--        <button class="export-button">EXPORT PDF</button>-->
       </div>
       <div class="control-group">
         <div class="h-9">
